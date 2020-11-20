@@ -1,6 +1,7 @@
 '''rename all files in a folder according to files in another'''
 
 import os
+import glob
 
 first_files_path = '...'
 second_files_path = '...'
