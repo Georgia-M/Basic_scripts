@@ -1,6 +1,7 @@
 '''check if two files in different directories have the same name'''
 
 import os
+import glob
 
 first_files_path = '...'
 second_files_path = '...'
