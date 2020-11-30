@@ -44,7 +44,7 @@ for r, d, f in os.walk(first_value_file_path):
                             if value_first < value_second:
                                 per_cent = ((value_second - value_first)/value_second)*100
                             if value_code > value_vmd:
-                                per_cent = ((value_first - value_second)/value_first)*100
+                                per_cent = ((value_first - value_second)/value_second)*100
                             if value_first == value_second:
                                 per_cent = 0
 
